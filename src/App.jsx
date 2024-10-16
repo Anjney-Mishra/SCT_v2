@@ -4,7 +4,7 @@ import InvalidTable from './InvalidTable';
 import * as XLSX from 'xlsx';
 
 const App = () => {
-  const token = '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'; // GitHub token
+  const token = import.meta.env.VITE_GIT_TOKEN; // GitHub token
 
   // List of users and their repositories
   const usersRepos = [
