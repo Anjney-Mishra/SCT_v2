@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import ValidTable from './components/ValidTable';
-import InvalidTable from './components/InvalidTable';
+import  { useEffect, useState } from 'react';
+import ValidTable from './ValidTable';
+import InvalidTable from './InvalidTable';
 import * as XLSX from 'xlsx';
 
 const App = () => {
